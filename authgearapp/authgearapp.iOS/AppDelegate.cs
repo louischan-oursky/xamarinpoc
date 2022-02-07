@@ -4,6 +4,8 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using authgear;
+using authgeariosbinding;
 
 namespace authgearapp.iOS
 {
@@ -24,6 +26,8 @@ namespace authgearapp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
+
+            Authgear app = new AuthgearIOS();
 
             return base.FinishedLaunching(app, options);
         }
