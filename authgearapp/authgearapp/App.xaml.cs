@@ -24,5 +24,9 @@ namespace authgearapp
         protected override void OnResume()
         {
         }
+        private void test(authgear.Authgear authgear)
+        {
+            authgear.SayHello();
+        }
     }
 }
