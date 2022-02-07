@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>louischan</Authors>
+    <Description>authgearnetstandardlibrary</Description>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>authgearnetstandardlibrary</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="NuGet.Build.Packaging" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.5-dev.8">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 </Project>
