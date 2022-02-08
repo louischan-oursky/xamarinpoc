@@ -2,6 +2,6 @@
 {
     public interface Authgear
     {
-        void SayHello();
+        void SayHello(System.Action<string> completion);
     }
 }
