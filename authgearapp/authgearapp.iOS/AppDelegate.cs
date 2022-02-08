@@ -27,7 +27,7 @@ namespace authgearapp.iOS
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
-            Authgear app = new AuthgearIOS();
+            Authgear app1 = new AuthgearIOS();
 
             return base.FinishedLaunching(app, options);
         }
