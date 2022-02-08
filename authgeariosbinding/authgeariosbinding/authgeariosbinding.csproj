@@ -60,6 +60,7 @@
     </PackageReference>
     <PackageReference Include="authgearnetstandardlibrary">
       <Version>1.0.0</Version>
+      <GeneratePathProperty></GeneratePathProperty>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />

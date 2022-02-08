@@ -89,6 +89,7 @@
     <ProjectReference Include="..\authgearapp\authgearapp.csproj">
       <Project>{371D44A7-A98B-4A3E-A39F-FD5330F6233E}</Project>
       <Name>authgearapp</Name>
+      <ReferenceSourceTarget></ReferenceSourceTarget>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
