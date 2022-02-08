@@ -63,5 +63,10 @@
       <GeneratePathProperty></GeneratePathProperty>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <NativeReference Include="authgearswift.framework">
+      <Kind>Framework</Kind>
+    </NativeReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
 </Project>
