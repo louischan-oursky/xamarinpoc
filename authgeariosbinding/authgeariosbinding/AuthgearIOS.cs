@@ -1,16 +1,24 @@
-﻿using authgear;
+﻿using System;
+using Foundation;
+using authgear;
 
 namespace authgeariosbinding
 {
     public class AuthgearIOS: Authgear
     {
+
+        private AuthgearSwift authgearSwift;
+
         public AuthgearIOS()
         {
+            this.authgearSwift = new AuthgearSwift();
         }
 
-        public void SayHello()
+        public void SayHello(Action<string> completion)
         {
-            System.Console.WriteLine("Hello from iOS");
+            this.authgearSwift.Greet("Swift", delegate (NSString s) {
+                completion(s.ToString());
+	        });
         }
     }
 }
