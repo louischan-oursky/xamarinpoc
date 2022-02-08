@@ -1,16 +1,23 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using authgear;
 
 namespace authgearapp
 {
     public partial class App : Application
+
     {
-        public App()
+
+        private Authgear authgear;
+
+        public App(Authgear authgear)
         {
             InitializeComponent();
 
             MainPage = new MainPage();
+
+            this.authgear = authgear;
         }
 
         protected override void OnStart()
@@ -24,9 +31,9 @@ namespace authgearapp
         protected override void OnResume()
         {
         }
-        private void test(authgear.Authgear authgear)
+        public void SayHello()
         {
-            authgear.SayHello();
+            this.authgear.SayHello();
         }
     }
 }

@@ -25,9 +25,12 @@ namespace authgearapp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
 
             Authgear app1 = new AuthgearIOS();
+            App app2 = new App(app1);
+            LoadApplication(app2);
+
+            app2.SayHello();
 
             return base.FinishedLaunching(app, options);
         }
