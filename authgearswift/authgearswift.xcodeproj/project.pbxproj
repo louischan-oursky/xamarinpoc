@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		77AAE71A27B2659700C1E9BD /* authgearswift.h in Headers */ = {isa = PBXBuildFile; fileRef = 77AAE71927B2659700C1E9BD /* authgearswift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77AAE72127B2672300C1E9BD /* AuthgearSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77AAE72027B2672300C1E9BD /* AuthgearSwift.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		77AAE71627B2659700C1E9BD /* authgearswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = authgearswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		77AAE71927B2659700C1E9BD /* authgearswift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = authgearswift.h; sourceTree = "<group>"; };
+		77AAE72027B2672300C1E9BD /* AuthgearSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthgearSwift.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				77AAE71927B2659700C1E9BD /* authgearswift.h */,
+				77AAE72027B2672300C1E9BD /* AuthgearSwift.swift */,
 			);
 			path = authgearswift;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					77AAE71527B2659700C1E9BD = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77AAE72127B2672300C1E9BD /* AuthgearSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		77AAE71E27B2659700C1E9BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -281,6 +287,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,6 +296,7 @@
 		77AAE71F27B2659700C1E9BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
