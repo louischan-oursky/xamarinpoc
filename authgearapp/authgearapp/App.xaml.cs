@@ -33,7 +33,10 @@ namespace authgearapp
         }
         public void SayHello()
         {
-            this.authgear.SayHello();
+            this.authgear.SayHello(delegate (String message)
+            {
+                System.Console.WriteLine(message);
+            });
         }
     }
 }
