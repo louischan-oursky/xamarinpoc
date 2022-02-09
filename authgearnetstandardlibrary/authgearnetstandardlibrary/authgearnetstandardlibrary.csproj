@@ -11,11 +11,15 @@
 
   <ItemGroup>
     <None Remove="NuGet.Build.Packaging" />
+    <None Remove="Xamarin.Essentials" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="NuGetizer" Version="0.7.5">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1">
+      <GeneratePathProperty></GeneratePathProperty>
     </PackageReference>
   </ItemGroup>
 </Project>

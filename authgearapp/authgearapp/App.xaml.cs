@@ -37,6 +37,8 @@ namespace authgearapp
             {
                 System.Console.WriteLine(message);
             });
+
+            new UseXamarinEssentials().PrintBuildString();
         }
     }
 }
