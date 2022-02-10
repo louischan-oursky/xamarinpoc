@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>authgeariosbinding</id>
+    <version>1.0.0</version>
+    <authors>louischan</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>authgeariosbinding</description>
+    <dependencies>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="authgearnetstandardlibrary" version="1.0.0" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="OpenTK-1.0" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Drawing.Common.dll" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="bin\Release\authgeariosbinding.dll" target="lib\Xamarin.iOS10\" />
+    <file src="bin\Release\authgeariosbinding.pdb" target="lib\Xamarin.iOS10\" />
+    <file src="bin\Release\authgeariosbinding.resources\authgearswift.xcframework\**" target="content\authgeariosbinding.resources\authgearswift.xcframework" />
+    <file src="authgeariosbinding.targets" target="build\Xamarin.iOS10\" />
+  </files>
+</package>
