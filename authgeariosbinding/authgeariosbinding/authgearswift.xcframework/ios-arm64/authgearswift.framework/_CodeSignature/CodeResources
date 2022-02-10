@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/authgearswift-Swift.h</key>
 		<data>
-		C/LCQVQUOsWmcgk0HVuL5Ri0LPg=
+		KOP2GmiUKvOL03JwzhOf4GCQyok=
 		</data>
 		<key>Headers/authgearswift.h</key>
 		<data>
@@ -14,55 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		v8YQPiU5niQb6MwDfvgoPtDeI4M=
+		zpLy5nhFvk97EVXYJkRML6/5SIQ=
 		</data>
-		<key>Modules/authgearswift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/authgearswift.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		xzlBczyQi4aQ3fh56BWf7gCkakU=
+		ond1Xl1OHgW334frqB/nyivamtM=
 		</data>
 		<key>Modules/authgearswift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		xzlBczyQi4aQ3fh56BWf7gCkakU=
+		ond1Xl1OHgW334frqB/nyivamtM=
 		</data>
-		<key>Modules/authgearswift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		78v8OKAOlSKlTprjBbIGuik4Isk=
+		atChYjtkGE1quIIr0QATw8/03f4=
 		</data>
-		<key>Modules/authgearswift.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		78v8OKAOlSKlTprjBbIGuik4Isk=
+		0GVo64Cr/oGkYER78knz92+vl3s=
 		</data>
-		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		tU53W2Qk8mXxY33ntly88+z0GGI=
-		</data>
-		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		TB5fv+hbug6wXTIfcXH5YOMMr1k=
+		W/O2xMQUASirs5w5yXO5zKbDiks=
 		</data>
 		<key>Modules/authgearswift.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		tU53W2Qk8mXxY33ntly88+z0GGI=
+		atChYjtkGE1quIIr0QATw8/03f4=
+		</data>
+		<key>Modules/authgearswift.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		0GVo64Cr/oGkYER78knz92+vl3s=
 		</data>
 		<key>Modules/authgearswift.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		TB5fv+hbug6wXTIfcXH5YOMMr1k=
-		</data>
-		<key>Modules/authgearswift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<data>
-		L9lmdENY1cUgWgA/OqKy/0OSQYw=
-		</data>
-		<key>Modules/authgearswift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		GvMw3kJA6SJEnSpFLcYHF9+qgEs=
-		</data>
-		<key>Modules/authgearswift.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		L9lmdENY1cUgWgA/OqKy/0OSQYw=
-		</data>
-		<key>Modules/authgearswift.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		GvMw3kJA6SJEnSpFLcYHF9+qgEs=
+		W/O2xMQUASirs5w5yXO5zKbDiks=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -75,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ihZh0TQjQELDhEnSqPUVwp7EzN1MFtvK+XXaSYdvyZI=
+			Jlt0uFZxbLOZHIhGR/j/yEM8q9GtYsIqM1vmp9KUHjk=
 			</data>
 		</dict>
 		<key>Headers/authgearswift.h</key>
@@ -85,88 +69,60 @@
 			knQnDHkMIpjvLWi1SL+hpIsAWnYRn0BjtsITiJlFBRY=
 			</data>
 		</dict>
-		<key>Modules/authgearswift.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/authgearswift.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+31AlCiXuYtccGfCpX7MRQ94d6B41ckXfrgE7BMN8Q=
+			XwlUn02mappeHLfxoINb0lS7BpL8smf1Cvjff0Bkdww=
 			</data>
 		</dict>
 		<key>Modules/authgearswift.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+31AlCiXuYtccGfCpX7MRQ94d6B41ckXfrgE7BMN8Q=
+			XwlUn02mappeHLfxoINb0lS7BpL8smf1Cvjff0Bkdww=
 			</data>
 		</dict>
-		<key>Modules/authgearswift.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
+		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bCIJRH33NXqg/g70ABhMO9xMVRLr1foqY/MnMLN9ZQ=
+			mlWpKIWA0KloC16X8O8dW6QSIccniPZcyzpQ+Qoz65s=
 			</data>
 		</dict>
-		<key>Modules/authgearswift.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bCIJRH33NXqg/g70ABhMO9xMVRLr1foqY/MnMLN9ZQ=
+			o+lRWxCaheXj6aht8IqjD4F48/KQaqyL2fCZC7QZCqc=
 			</data>
 		</dict>
-		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h21tRmvUeGBpRP554FZfI49yto1kicaNaISAa+WjKKo=
-			</data>
-		</dict>
-		<key>Modules/authgearswift.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ae+qgqNnw/F/hWbOiDtSbs/+wpCJebj5kkv9RqDGjm0=
+			sv7G/fkOBBihvLjagO8q0qPfCtPUuFhfMVc/QvcFowI=
 			</data>
 		</dict>
 		<key>Modules/authgearswift.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h21tRmvUeGBpRP554FZfI49yto1kicaNaISAa+WjKKo=
+			mlWpKIWA0KloC16X8O8dW6QSIccniPZcyzpQ+Qoz65s=
+			</data>
+		</dict>
+		<key>Modules/authgearswift.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o+lRWxCaheXj6aht8IqjD4F48/KQaqyL2fCZC7QZCqc=
 			</data>
 		</dict>
 		<key>Modules/authgearswift.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ae+qgqNnw/F/hWbOiDtSbs/+wpCJebj5kkv9RqDGjm0=
-			</data>
-		</dict>
-		<key>Modules/authgearswift.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nkwLa8Hp2D19e6cq/gjDy0KOL+phvSUvdnFBgBD4YDQ=
-			</data>
-		</dict>
-		<key>Modules/authgearswift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bWVCLcLnfUECHkQwzezudIca7SGpjQwfriN9nL+14v0=
-			</data>
-		</dict>
-		<key>Modules/authgearswift.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nkwLa8Hp2D19e6cq/gjDy0KOL+phvSUvdnFBgBD4YDQ=
-			</data>
-		</dict>
-		<key>Modules/authgearswift.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bWVCLcLnfUECHkQwzezudIca7SGpjQwfriN9nL+14v0=
+			sv7G/fkOBBihvLjagO8q0qPfCtPUuFhfMVc/QvcFowI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

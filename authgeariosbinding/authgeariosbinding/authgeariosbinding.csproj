@@ -16,6 +16,7 @@
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>louischan</Authors>
     <Description>authgeariosbinding</Description>
+    <NoBindingEmbedding>true</NoBindingEmbedding>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -64,8 +65,11 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <NativeReference Include="authgearswift.framework">
+    <NativeReference Include="authgearswift.xcframework">
       <Kind>Framework</Kind>
+      <SmartLink>False</SmartLink>
+      <ForceLoad>True</ForceLoad>
+      <Frameworks>Foundation</Frameworks>
     </NativeReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.ObjCBinding.CSharp.targets" />
