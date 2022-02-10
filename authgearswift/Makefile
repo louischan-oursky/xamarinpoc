@@ -10,6 +10,13 @@ iphonesimulator:
 iphoneos:
 	xcodebuild -sdk iphoneos -project authgearswift.xcodeproj -configuration Release
 
+.PHONY: xcframework
+xcframework:
+	xcodebuild -create-xcframework \
+		-framework ./build/Release-iphonesimulator/authgearswift.framework \
+		-framework ./build/Release-iphoneos/authgearswift.framework \
+		-output ./build/authgearswift.xcframework
+
 .PHONY: sharpie
 sharpie:
 	sharpie bind \
