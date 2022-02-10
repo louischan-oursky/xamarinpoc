@@ -11,7 +11,6 @@
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
     <AssemblyName>NativeLibrary</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
-    <PackOnBuild>true</PackOnBuild>
     <PackageId>authgeariosbinding</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
     <Authors>louischan</Authors>
@@ -54,11 +53,6 @@
     <ObjcBindingCoreSource Include="Structs.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="NuGetizer">
-      <Version>0.7.5</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
     <PackageReference Include="authgearnetstandardlibrary">
       <Version>1.0.0</Version>
       <GeneratePathProperty></GeneratePathProperty>
