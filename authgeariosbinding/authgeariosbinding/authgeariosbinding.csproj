@@ -7,9 +7,9 @@
     <ProjectGuid>{2490ABC2-731A-4E6A-BBCF-89769C125234}</ProjectGuid>
     <TemplateGuid>{b6f3ff35-79b2-4f25-a2fc-60a7cf61013b}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>NativeLibrary</RootNamespace>
+    <RootNamespace>authgeariosbinding</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>NativeLibrary</AssemblyName>
+    <AssemblyName>authgeariosbinding</AssemblyName>
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackageId>authgeariosbinding</PackageId>
     <PackageVersion>1.0.0</PackageVersion>
